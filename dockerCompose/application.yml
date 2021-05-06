@@ -1,0 +1,4 @@
+server:
+  port: 7004
+url: "127.0.0.1:7007/"
+filepath: "/data/"
