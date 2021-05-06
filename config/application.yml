@@ -1,0 +1,4 @@
+server:
+  port: 7004
+url: "www.cjlly.com/"
+filepath: "/var/www/html/"

@@ -1,0 +1,20 @@
+version: "3.2"
+services:
+  web:
+    build: .
+    volumes:
+      - ./src:/data
+    ports:
+    - "7006:7004"
+
+
+
+  server:
+    image: httpd:latest
+    volumes:
+      - ./src:/usr/local/apache2/htdocs
+    ports:
+      - "7007:80"
+
+volumes:
+  mydata:
