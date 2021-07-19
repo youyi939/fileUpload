@@ -4,7 +4,10 @@
 共有两个接口
 
 * GET /tset 测试应用是否还活着。返回配置文件中的filepath（上传文件保存路径）
+:7007/
+
 * POST /upload 请求体中加入要上传的文件，格式为filedata,名字为file
+:7006/upload
 
 ### DockerCompose
 本地安装docker即可，docker目前都已经自带了dockercompose插件。会根据dockercompose.yml自动生成镜像及容器。
